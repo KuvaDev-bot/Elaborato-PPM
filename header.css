@@ -1,0 +1,135 @@
+@media only screen and (max-width: 900px) {
+    #subscribe-btn {
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+    }
+    #logo-caption-container {
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    z-index: 10;
+}
+
+.left-header {
+    display: flex;
+    width: 200px;
+    background-color: black;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.middle-header {
+    background-color: black;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-svg {
+    filter: invert(1);
+    min-width: 208px;
+    height: 35px;
+    padding-left: 40px;
+}
+
+.logo-caption {
+    color: rgb(161, 161, 161);
+    margin-top: 0;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: black;
+    width: 230px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.side-bar-btn {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.side-bar-btn:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+.side-bar-logo {
+    height: 20px;
+    filter: invert(1);
+}
+
+.notification-logo {
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    filter: invert(1);
+}
+
+.subscribe-btn {
+    border: none;
+    background-color: rgb(52, 108, 243);
+    color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 140px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: rgb(74, 112, 168);
+}
+
+.subscribe-btn:active {
+    opacity: 0.6;
+}
+
+.sign-in-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: rgb(32, 32, 32);
+}
